@@ -1,4 +1,4 @@
-From a98e70840a8d2b777e45a30916bd402524cfed3f Mon Sep 17 00:00:00 2001
+From 4dc649ffabefc2e87f166e9bf2d27885dd22c3b4 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:06:03 +0000
 Subject: [PATCH 125/184] cape: Added support for IIO helper cape
@@ -9,9 +9,9 @@ channel.
 
 Signed-off-by: Matt Ranostay <mranostay@gmail.com>
 ---
- drivers/misc/cape/beaglebone/Kconfig           |    7 +
- drivers/misc/cape/beaglebone/Makefile          |    1 +
- drivers/misc/cape/beaglebone/bone-iio-helper.c |  175 ++++++++++++++++++++++++
+ drivers/misc/cape/beaglebone/Kconfig           |   7 +
+ drivers/misc/cape/beaglebone/Makefile          |   1 +
+ drivers/misc/cape/beaglebone/bone-iio-helper.c | 175 +++++++++++++++++++++++++
  3 files changed, 183 insertions(+)
  create mode 100644 drivers/misc/cape/beaglebone/bone-iio-helper.c
 
@@ -227,5 +227,5 @@ index 0000000..d2c76e1
 +MODULE_LICENSE("GPL");
 +MODULE_ALIAS("platform:bone-iio-helper");
 -- 
-1.7.10.4
+1.9.1
 

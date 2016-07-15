@@ -1,11 +1,11 @@
-From 5a7b863041d114bfdece7e766e3ae2d2b73583d8 Mon Sep 17 00:00:00 2001
+From ceb9e297f38e3353f902a707a77d509b29fe3c83 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 17:12:45 -0400
 Subject: [PATCH 32/35] ARM: dts: add BeagleBone gpevt support
 
 Signed-off-by: Matt Porter <mporter@ti.com>
 ---
- arch/arm/boot/dts/am335x-bone.dts |   19 ++++++++++++++++++-
+ arch/arm/boot/dts/am335x-bone.dts | 19 ++++++++++++++++++-
  1 file changed, 18 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/boot/dts/am335x-bone.dts b/arch/arm/boot/dts/am335x-bone.dts
@@ -57,5 +57,5 @@ index 8ac3ae4..8f35a81 100644
 +	ti,edma-xbar-event-map = <32 12>;
 +};
 -- 
-1.7.10.4
+1.9.1
 

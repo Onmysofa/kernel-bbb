@@ -1,7 +1,7 @@
-From fdc29e03daea8f2333b71b2a4d671545b78f4747 Mon Sep 17 00:00:00 2001
+From 641eade1a0225466764034054be3696c66c9c4ad Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Mon, 31 Mar 2014 14:48:05 -0500
-Subject: [PATCH 8/8] deb-pkg: sync with v3.14
+Subject: [PATCH 8/9] deb-pkg: sync with v3.14
 
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
 ---

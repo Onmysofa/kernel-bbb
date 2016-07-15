@@ -1,4 +1,4 @@
-From 2e4073151f16aad432ac5766a5f6431637ddcb11 Mon Sep 17 00:00:00 2001
+From 8e548f566fe7ee9ace4850169645343156691f10 Mon Sep 17 00:00:00 2001
 From: Alexander Holler <holler@ahsoftware.de>
 Date: Sun, 28 Jul 2013 14:37:44 +0200
 Subject: [PATCH 24/24] arm: bone: dts: add CD for mmc1
@@ -7,7 +7,7 @@ This enables the use of MMC cards even when no card was inserted at boot.
 
 Signed-off-by: Alexander Holler <holler@ahsoftware.de>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi |    9 +++++++++
+ arch/arm/boot/dts/am335x-bone-common.dtsi | 9 +++++++++
  1 file changed, 9 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
@@ -38,5 +38,5 @@ index de61aea..68ce1ee 100644
  	vmmc-supply = <&ldo3_reg>;
  	ti,vcc-aux-disable-is-sleep;
 -- 
-1.7.10.4
+1.9.1
 

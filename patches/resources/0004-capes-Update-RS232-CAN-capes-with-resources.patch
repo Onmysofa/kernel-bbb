@@ -1,11 +1,11 @@
-From b7fbad83684125f253df89015d6bc10818271957 Mon Sep 17 00:00:00 2001
+From 24662469f6a6cfd2bd7c88187aed4094e99b2828 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 20 May 2013 16:11:38 +0300
-Subject: [PATCH 04/23] capes: Update RS232 + CAN capes with resources
+Subject: [PATCH 04/24] capes: Update RS232 + CAN capes with resources
 
 ---
- firmware/capes/BB-BONE-RS232-00A0.dts   |    8 ++++++++
- firmware/capes/BB-BONE-SERL-01-00A1.dts |    8 ++++++++
+ firmware/capes/BB-BONE-RS232-00A0.dts   | 8 ++++++++
+ firmware/capes/BB-BONE-SERL-01-00A1.dts | 8 ++++++++
  2 files changed, 16 insertions(+)
 
 diff --git a/firmware/capes/BB-BONE-RS232-00A0.dts b/firmware/capes/BB-BONE-RS232-00A0.dts
@@ -47,5 +47,5 @@ index b0459c8..93b1bfc 100644
  		target = <&am33xx_pinmux>;
  		__overlay__ {
 -- 
-1.7.10.4
+1.9.1
 

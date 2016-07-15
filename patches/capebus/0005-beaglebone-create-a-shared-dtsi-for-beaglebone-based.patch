@@ -1,4 +1,4 @@
-From 1e9846dc84fc98f404b7d7c5ec37856152363f9f Mon Sep 17 00:00:00 2001
+From 8226b4da9aca887073630f307c25556ea57b7a2e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 09:19:38 +0100
 Subject: [PATCH 5/7] beaglebone: create a shared dtsi for beaglebone based
@@ -6,10 +6,10 @@ Subject: [PATCH 5/7] beaglebone: create a shared dtsi for beaglebone based
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- arch/arm/boot/dts/Makefile                |    3 +-
- arch/arm/boot/dts/am335x-bone-common.dtsi |  290 +++++++++++++++++++++++++++++
- arch/arm/boot/dts/am335x-bone.dts         |  281 +---------------------------
- arch/arm/boot/dts/am335x-boneblack.dts    |   19 ++
+ arch/arm/boot/dts/Makefile                |   3 +-
+ arch/arm/boot/dts/am335x-bone-common.dtsi | 290 ++++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am335x-bone.dts         | 281 +----------------------------
+ arch/arm/boot/dts/am335x-boneblack.dts    |  19 ++
  4 files changed, 312 insertions(+), 281 deletions(-)
  create mode 100644 arch/arm/boot/dts/am335x-bone-common.dtsi
  create mode 100644 arch/arm/boot/dts/am335x-boneblack.dts
@@ -639,5 +639,5 @@ index 0000000..ab5af7f
 +	status = "okay";
 +};
 -- 
-1.7.10.4
+1.9.1
 

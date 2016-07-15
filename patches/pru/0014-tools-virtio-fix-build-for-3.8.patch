@@ -1,15 +1,15 @@
-From feaeb3f1f1e834085964792eb2d9bb8f28e7c343 Mon Sep 17 00:00:00 2001
+From a8c9ffa5351043b07bdc6f6bf9424d46e9903008 Mon Sep 17 00:00:00 2001
 From: "Michael S. Tsirkin" <mst@redhat.com>
 Date: Mon, 18 Mar 2013 13:22:18 +1030
-Subject: [PATCH 14/19] tools/virtio: fix build for 3.8
+Subject: [PATCH 14/20] tools/virtio: fix build for 3.8
 
 Signed-off-by: Michael S. Tsirkin <mst@redhat.com>
 Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
 ---
- drivers/vhost/test.c        |    4 +++-
- tools/virtio/Makefile       |    2 +-
- tools/virtio/linux/virtio.h |    7 ++++++-
- tools/virtio/virtio_test.c  |    3 ++-
+ drivers/vhost/test.c        | 4 +++-
+ tools/virtio/Makefile       | 2 +-
+ tools/virtio/linux/virtio.h | 7 ++++++-
+ tools/virtio/virtio_test.c  | 3 ++-
  4 files changed, 12 insertions(+), 4 deletions(-)
 
 diff --git a/drivers/vhost/test.c b/drivers/vhost/test.c
@@ -87,5 +87,5 @@ index fcc9aa2..faf3f0c 100644
  				       vq_notify, vq_callback, "test");
  	assert(info->vq);
 -- 
-1.7.10.4
+1.9.1
 

@@ -1,4 +1,4 @@
-From a29cc9faf73c28f32b3cb8d67ac988ede367ebaf Mon Sep 17 00:00:00 2001
+From 00e75803e5f1b23b65e9bce5dc55433d8bad6e5b Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 23 Apr 2013 17:18:34 +0000
 Subject: [PATCH 174/184] bone: Added RS232 prototype cape DT object
@@ -8,9 +8,9 @@ This should work with the RS232 cape that currently exists.
 
 Signed-off-by: Matt Ranostay <mranostay@gmail.com>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi |   17 +++++++++++++
- firmware/Makefile                         |    1 +
- firmware/capes/BB-BONE-RS232-00A0.dts     |   39 +++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am335x-bone-common.dtsi | 17 ++++++++++++++
+ firmware/Makefile                         |  1 +
+ firmware/capes/BB-BONE-RS232-00A0.dts     | 39 +++++++++++++++++++++++++++++++
  3 files changed, 57 insertions(+)
  create mode 100644 firmware/capes/BB-BONE-RS232-00A0.dts
 
@@ -107,5 +107,5 @@ index 0000000..ab789bf
 +
 +};
 -- 
-1.7.10.4
+1.9.1
 

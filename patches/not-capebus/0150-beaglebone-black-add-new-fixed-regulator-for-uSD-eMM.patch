@@ -1,4 +1,4 @@
-From 44454062e08972123c970a32c8261766a5c6fc49 Mon Sep 17 00:00:00 2001
+From a91d1944d72a7ff3a241e25ea48339f4d0961509 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 1 Apr 2013 09:36:22 +0200
 Subject: [PATCH 150/184] beaglebone black: add new fixed regulator for
@@ -6,8 +6,8 @@ Subject: [PATCH 150/184] beaglebone black: add new fixed regulator for
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi |    8 ++++++++
- arch/arm/boot/dts/am335x-boneblack.dts    |    6 +++++-
+ arch/arm/boot/dts/am335x-bone-common.dtsi | 8 ++++++++
+ arch/arm/boot/dts/am335x-boneblack.dts    | 6 +++++-
  2 files changed, 13 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
@@ -48,5 +48,5 @@ index a0d6762..897c2a3 100644
  	ti,non-removable;
  	status = "okay";
 -- 
-1.7.10.4
+1.9.1
 

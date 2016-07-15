@@ -1,17 +1,17 @@
-From 311563c567da0714533d008613ad8ab3c954bbd8 Mon Sep 17 00:00:00 2001
+From b04b495627a80d6235c4dbaf9ea512bcfbcf44fd Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 20 Jun 2013 10:54:55 -0400
-Subject: [PATCH 16/23] LCD capes: set default brightness to 100%
+Subject: [PATCH 16/24] LCD capes: set default brightness to 100%
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- firmware/capes/BB-BONE-LCD4-01-00A1.dts        |    2 +-
- firmware/capes/BB-BONE-LCD7-01-00A2.dts        |    2 +-
- firmware/capes/BB-BONE-LCD7-01-00A3.dts        |    2 +-
- firmware/capes/BB-BONE-LCD7-01-00A4.dts        |    2 +-
- firmware/capes/cape-bone-adafruit-lcd-00A0.dts |    2 +-
- firmware/capes/cape-bone-hexy-00A0.dts         |    2 +-
- firmware/capes/cape-bone-lcd3-00A2.dts         |    2 +-
+ firmware/capes/BB-BONE-LCD4-01-00A1.dts        | 2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A2.dts        | 2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A3.dts        | 2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A4.dts        | 2 +-
+ firmware/capes/cape-bone-adafruit-lcd-00A0.dts | 2 +-
+ firmware/capes/cape-bone-hexy-00A0.dts         | 2 +-
+ firmware/capes/cape-bone-lcd3-00A2.dts         | 2 +-
  7 files changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/firmware/capes/BB-BONE-LCD4-01-00A1.dts b/firmware/capes/BB-BONE-LCD4-01-00A1.dts
@@ -106,5 +106,5 @@ index caed352..813f5c4 100644
  			};
  
 -- 
-1.7.10.4
+1.9.1
 

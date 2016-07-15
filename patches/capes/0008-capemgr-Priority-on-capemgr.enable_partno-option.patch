@@ -1,7 +1,7 @@
-From ccf0a13c9a50bbeecf95732ff544d5b3328e963a Mon Sep 17 00:00:00 2001
+From 951d147d983dffa7199b0e931955df235b6068c2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 24 Jul 2013 18:30:43 +0300
-Subject: [PATCH 8/8] capemgr: Priority on capemgr.enable_partno option
+Subject: [PATCH 08/38] capemgr: Priority on capemgr.enable_partno option
 
 When booting from a device that's providing the rootfs via a
 cape fragment, you face the following problem as it appears
@@ -30,7 +30,7 @@ capemgr.enable_partno=foo:00A0:10
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/misc/cape/beaglebone/capemgr.c |   44 ++++++++++++++++++++++----------
+ drivers/misc/cape/beaglebone/capemgr.c | 44 +++++++++++++++++++++++-----------
  1 file changed, 30 insertions(+), 14 deletions(-)
 
 diff --git a/drivers/misc/cape/beaglebone/capemgr.c b/drivers/misc/cape/beaglebone/capemgr.c
@@ -152,5 +152,5 @@ index b2d5edb..0f6673a 100644
  			/* we continue even in case of an error */
  			if (IS_ERR_OR_NULL(slot)) {
 -- 
-1.7.10.4
+1.9.1
 

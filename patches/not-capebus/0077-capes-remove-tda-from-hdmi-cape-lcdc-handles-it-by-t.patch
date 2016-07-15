@@ -1,4 +1,4 @@
-From 03838fe8e7c121c8fc848011e97f791cf3a07f83 Mon Sep 17 00:00:00 2001
+From af1d7f89c82f06b2ecea0283eb3c6723fe46c5ce Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 23:23:17 +0100
 Subject: [PATCH 077/184] capes: remove tda from hdmi cape, lcdc handles it by
@@ -6,7 +6,7 @@ Subject: [PATCH 077/184] capes: remove tda from hdmi cape, lcdc handles it by
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- firmware/capes/cape-boneblack-hdmi-00A0.dts |   16 ----------------
+ firmware/capes/cape-boneblack-hdmi-00A0.dts | 16 ----------------
  1 file changed, 16 deletions(-)
 
 diff --git a/firmware/capes/cape-boneblack-hdmi-00A0.dts b/firmware/capes/cape-boneblack-hdmi-00A0.dts
@@ -37,5 +37,5 @@ index 6955aab..3af9ef7 100644
  		target = <&ocp>;
  		__overlay__ {
 -- 
-1.7.10.4
+1.9.1
 

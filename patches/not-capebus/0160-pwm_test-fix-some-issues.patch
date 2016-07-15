@@ -1,10 +1,10 @@
-From d1cb31684d8905cc624bb99b47e2892247509c2e Mon Sep 17 00:00:00 2001
+From cf308e3e7249bbb34c76e83e34ceae25d518ced3 Mon Sep 17 00:00:00 2001
 From: Jack Mitchell <jack@embed.me.uk>
 Date: Tue, 9 Apr 2013 16:47:31 +0200
 Subject: [PATCH 160/184] pwm_test: fix some issues
 
 ---
- drivers/pwm/pwm_test.c |   39 ++++++++++++++++++++++++++++++---------
+ drivers/pwm/pwm_test.c | 39 ++++++++++++++++++++++++++++++---------
  1 file changed, 30 insertions(+), 9 deletions(-)
 
 diff --git a/drivers/pwm/pwm_test.c b/drivers/pwm/pwm_test.c
@@ -89,5 +89,5 @@ index d9948db..83e6c22 100644
  static const struct attribute *pwm_attrs[] = {
  	&dev_attr_duty.attr,
 -- 
-1.7.10.4
+1.9.1
 

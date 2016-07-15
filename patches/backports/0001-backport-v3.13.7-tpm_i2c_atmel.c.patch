@@ -1,4 +1,4 @@
-From 3295e0bbcc84baa77c589a012bca5631447801dc Mon Sep 17 00:00:00 2001
+From c200d988fa7e8bbe264f4a16b5fd22a19a3c9958 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 8 Apr 2014 15:50:27 -0500
 Subject: [PATCH] backport (v3.13.7): tpm_i2c_atmel.c

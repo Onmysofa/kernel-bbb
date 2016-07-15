@@ -1,4 +1,4 @@
-From 22c3bd737702ba7ffb77f5bbd4cac94544e64b9e Mon Sep 17 00:00:00 2001
+From c7262aeb1c3ddc6979ff2d0787520e7fb4d062d1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 11 Mar 2013 12:24:17 +0200
 Subject: [PATCH 122/184] bone-tester: Add overrides for BB-BONE-TESTER
@@ -7,7 +7,7 @@ Add overrides for BB-BONE-TESTER
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/boot/dts/am335x-tester.dts |   19 +++++++++++++++++++
+ arch/arm/boot/dts/am335x-tester.dts | 19 +++++++++++++++++++
  1 file changed, 19 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am335x-tester.dts b/arch/arm/boot/dts/am335x-tester.dts
@@ -48,5 +48,5 @@ index 04dc2c1..d44bc21 100644
  	};
  };
 -- 
-1.7.10.4
+1.9.1
 

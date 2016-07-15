@@ -1,17 +1,17 @@
-From ab7821a82581158eedcfa6f5de530814a5ece5ad Mon Sep 17 00:00:00 2001
+From 98f1052f709df417f12ed9370bfecf1d0868b1e9 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 11:51:10 +0100
 Subject: [PATCH 079/184] capemgr: add dts overlay for LCD7 00A2 cape
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- firmware/Makefile                       |    3 +-
- firmware/capes/BB-BONE-LCD7-01-00A2.dts |  225 +++++++++++++++++++++++++++++++
+ firmware/Makefile                       |   3 +-
+ firmware/capes/BB-BONE-LCD7-01-00A2.dts | 225 ++++++++++++++++++++++++++++++++
  2 files changed, 227 insertions(+), 1 deletion(-)
  create mode 100644 firmware/capes/BB-BONE-LCD7-01-00A2.dts
 
 diff --git a/firmware/Makefile b/firmware/Makefile
-index 0bcacba..f8c4a9e 100644
+index 0bcacba..f8c4a9ef 100644
 --- a/firmware/Makefile
 +++ b/firmware/Makefile
 @@ -143,7 +143,8 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
@@ -256,5 +256,5 @@ index 0000000..8e3db47
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

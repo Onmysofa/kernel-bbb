@@ -1,12 +1,12 @@
-From c39c1fb227af59c0219a4342e1ec29bea9492776 Mon Sep 17 00:00:00 2001
+From 58505893accc7c16de1c4f7aa2b22a7b544eca29 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 25 Mar 2013 13:35:38 +0100
 Subject: [PATCH 137/184] add WIP support LCD4 rev 00A4
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- firmware/Makefile                       |    1 +
- firmware/capes/BB-BONE-LCD7-01-00A4.dts |  240 +++++++++++++++++++++++++++++++
+ firmware/Makefile                       |   1 +
+ firmware/capes/BB-BONE-LCD7-01-00A4.dts | 240 ++++++++++++++++++++++++++++++++
  2 files changed, 241 insertions(+)
  create mode 100644 firmware/capes/BB-BONE-LCD7-01-00A4.dts
 
@@ -269,5 +269,5 @@ index 0000000..a1cce3c
 +       };
 +};
 -- 
-1.7.10.4
+1.9.1
 

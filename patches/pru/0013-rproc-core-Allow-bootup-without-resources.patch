@@ -1,14 +1,14 @@
-From 62b64ed6f9ca1c1e1bd8eefdf806264511a70c2e Mon Sep 17 00:00:00 2001
+From b573cc76e74a791954a43dc02402167b559480b4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 10 Jul 2013 00:13:03 +0300
-Subject: [PATCH 13/19] rproc: core: Allow bootup without resources
+Subject: [PATCH 13/20] rproc: core: Allow bootup without resources
 
 Not every core has a need to communicate with the host via VDEVS.
 Allow booting without a resource table.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- drivers/remoteproc/remoteproc_core.c |   17 +++++++----------
+ drivers/remoteproc/remoteproc_core.c | 17 +++++++----------
  1 file changed, 7 insertions(+), 10 deletions(-)
 
 diff --git a/drivers/remoteproc/remoteproc_core.c b/drivers/remoteproc/remoteproc_core.c
@@ -40,5 +40,5 @@ index 7c56d0a..76ca36a 100644
  
  	/* load the ELF segments to memory */
 -- 
-1.7.10.4
+1.9.1
 

@@ -1,4 +1,4 @@
-From 75c376253b6bfc70f6af5edc996f1c04276d347f Mon Sep 17 00:00:00 2001
+From 476dbcd1274abd1615f12412802705b37a2980bc Mon Sep 17 00:00:00 2001
 From: "B. Scott Michel" <bscottm@ieee.org>
 Date: Thu, 29 May 2014 11:44:40 -0700
 Subject: [PATCH 9/9] sitara_red_blue_swap_workaround
@@ -849,5 +849,5 @@ index 6e696e6..d91ad8b 100644
  
  		ops->flags |= FBCON_FLAGS_INIT;
 -- 
-2.0.0.rc2
+1.9.1
 

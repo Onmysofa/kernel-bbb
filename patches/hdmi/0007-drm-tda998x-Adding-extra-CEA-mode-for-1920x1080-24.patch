@@ -1,10 +1,10 @@
-From 81622dceb64d4b3ebea2036e7b673162a6047b1e Mon Sep 17 00:00:00 2001
+From c778c40fc9a293eacb4e9d83ff7386dc4cf3f3c4 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Wed, 8 May 2013 16:39:28 -0500
-Subject: [PATCH 07/22] drm: tda998x Adding extra CEA mode for 1920x1080@24
+Subject: [PATCH 07/27] drm: tda998x Adding extra CEA mode for 1920x1080@24
 
 ---
- drivers/gpu/drm/i2c/tda998x_drv.c |    8 ++++----
+ drivers/gpu/drm/i2c/tda998x_drv.c | 8 ++++----
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/drivers/gpu/drm/i2c/tda998x_drv.c b/drivers/gpu/drm/i2c/tda998x_drv.c
@@ -31,5 +31,5 @@ index 03d58b1..4432eea 100644
  	}
  	return cea_to_nxp_mode[cea_mode];
 -- 
-1.7.10.4
+1.9.1
 

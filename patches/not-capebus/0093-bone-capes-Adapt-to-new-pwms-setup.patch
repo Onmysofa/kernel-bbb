@@ -1,12 +1,12 @@
-From 696d1e1c691925e956fa10a55aaca0a0013a7261 Mon Sep 17 00:00:00 2001
+From 38bd8ffee5dd4cf59a4178714e0fd0838e3e2c37 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 16:28:59 +0200
 Subject: [PATCH 093/184] bone-capes: Adapt to new pwms setup
 
 ---
- firmware/capes/BB-BONE-LCD7-01-00A2.dts  |    1 +
- firmware/capes/cape-bone-geiger-00A0.dts |    4 ++--
- firmware/capes/cape-bone-lcd3-00A2.dts   |   19 +++++++++++++++----
+ firmware/capes/BB-BONE-LCD7-01-00A2.dts  |  1 +
+ firmware/capes/cape-bone-geiger-00A0.dts |  4 ++--
+ firmware/capes/cape-bone-lcd3-00A2.dts   | 19 +++++++++++++++----
  3 files changed, 18 insertions(+), 6 deletions(-)
 
 diff --git a/firmware/capes/BB-BONE-LCD7-01-00A2.dts b/firmware/capes/BB-BONE-LCD7-01-00A2.dts
@@ -87,5 +87,5 @@ index c14763c..c33f872 100644
  
  			tscadc {
 -- 
-1.7.10.4
+1.9.1
 

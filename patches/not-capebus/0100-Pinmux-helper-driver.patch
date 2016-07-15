@@ -1,4 +1,4 @@
-From 380418866c50cc9b772c5fd0d673af4d75f48375 Mon Sep 17 00:00:00 2001
+From c0bd91b1b9c5c9222e22155b30182b260c96a908 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@vm-ubuntu.(none)>
 Date: Mon, 25 Feb 2013 00:48:01 +0200
 Subject: [PATCH 100/184] Pinmux helper driver.
@@ -14,9 +14,9 @@ Subject: [PATCH 100/184] Pinmux helper driver.
     		status = "okay";
     	};
 ---
- drivers/misc/cape/beaglebone/Kconfig              |    7 ++
- drivers/misc/cape/beaglebone/Makefile             |    2 +
- drivers/misc/cape/beaglebone/bone-pinmux-helper.c |   72 +++++++++++++++++++++
+ drivers/misc/cape/beaglebone/Kconfig              |  7 +++
+ drivers/misc/cape/beaglebone/Makefile             |  2 +
+ drivers/misc/cape/beaglebone/bone-pinmux-helper.c | 72 +++++++++++++++++++++++
  3 files changed, 81 insertions(+)
  create mode 100644 drivers/misc/cape/beaglebone/bone-pinmux-helper.c
 
@@ -130,5 +130,5 @@ index 0000000..ba3922d
 +MODULE_LICENSE("GPL");
 +MODULE_ALIAS("platform:bone-pinmux-helper");
 -- 
-1.7.10.4
+1.9.1
 

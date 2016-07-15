@@ -1,12 +1,12 @@
-From b4d387cd2600295b71adb6d7fd59aafea9cee51b Mon Sep 17 00:00:00 2001
+From 635d6c77de1dff5010cbbf86ea0d5ba94404505b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 13 Jun 2013 18:43:27 +0300
-Subject: [PATCH 15/23] capes: LCD7: fix vsync-len off by one
+Subject: [PATCH 15/24] capes: LCD7: fix vsync-len off by one
 
 ---
- firmware/capes/BB-BONE-LCD7-01-00A2.dts |    2 +-
- firmware/capes/BB-BONE-LCD7-01-00A3.dts |    2 +-
- firmware/capes/BB-BONE-LCD7-01-00A4.dts |    2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A2.dts | 2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A3.dts | 2 +-
+ firmware/capes/BB-BONE-LCD7-01-00A4.dts | 2 +-
  3 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/firmware/capes/BB-BONE-LCD7-01-00A2.dts b/firmware/capes/BB-BONE-LCD7-01-00A2.dts
@@ -49,5 +49,5 @@ index fc10ee4..5f2644c 100644
  						hsync-active    = <0>;
  						vsync-active    = <0>;
 -- 
-1.7.10.4
+1.9.1
 

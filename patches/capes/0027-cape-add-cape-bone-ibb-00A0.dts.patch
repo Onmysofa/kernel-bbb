@@ -1,7 +1,7 @@
-From acde0fb4f7204780d78a78c3f561bbae30700894 Mon Sep 17 00:00:00 2001
+From 7dab5dfb673e939c9f7eef7636af17608dcf1b2e Mon Sep 17 00:00:00 2001
 From: Robert Budde <rl.budde@gmail.com>
 Date: Mon, 7 Apr 2014 14:19:19 -0500
-Subject: [PATCH 27/27] cape: add cape-bone-ibb-00A0.dts
+Subject: [PATCH 27/38] cape: add cape-bone-ibb-00A0.dts
 
 Signed-off-by: Robert Budde <rl.budde@gmail.com>
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>

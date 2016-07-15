@@ -1,14 +1,13 @@
-From 641a8eba1d789ec129a34779f2b7533d7bb25dc3 Mon Sep 17 00:00:00 2001
+From a344f5de18ca078e92ca3594c07c869c18577f20 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Mon, 25 Mar 2013 16:12:14 -0500
 Subject: [PATCH 144/184] Make sure various timings fit within the bits
- available in the LCD controller, otherwise prune
- the mode. Also adjust the timing values to behave
- as the TRM indicates with 0 representing 1 in some
+ available in the LCD controller, otherwise prune the mode. Also adjust the
+ timing values to behave as the TRM indicates with 0 representing 1 in some
  cases.
 
 ---
- drivers/gpu/drm/tilcdc/tilcdc_crtc.c |   73 +++++++++++++++++++++++++++-------
+ drivers/gpu/drm/tilcdc/tilcdc_crtc.c | 73 +++++++++++++++++++++++++++++-------
  1 file changed, 59 insertions(+), 14 deletions(-)
 
 diff --git a/drivers/gpu/drm/tilcdc/tilcdc_crtc.c b/drivers/gpu/drm/tilcdc/tilcdc_crtc.c
@@ -137,5 +136,5 @@ index c7b41d5..5d24e0a 100644
  		/* we only support reduced blanking modes */
  		rb = (mode->htotal - mode->hdisplay == 160) &&
 -- 
-1.7.10.4
+1.9.1
 

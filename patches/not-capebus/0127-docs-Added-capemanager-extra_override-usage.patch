@@ -1,4 +1,4 @@
-From bf22d3c3f321c502f1766ec65ff0240808a75873 Mon Sep 17 00:00:00 2001
+From 0d73814bfc56eecb7f860fe6c724be813d73f2ae Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:01 +0000
 Subject: [PATCH 127/184] docs: Added capemanager extra_override usage
@@ -8,7 +8,7 @@ slot options for capemanager.
 
 Signed-off-by: Matt Ranostay <mranostay@gmail.com>
 ---
- Documentation/devicetree/bindings/misc/capes-beaglebone.txt |    4 ++++
+ Documentation/devicetree/bindings/misc/capes-beaglebone.txt | 4 ++++
  1 file changed, 4 insertions(+)
 
 diff --git a/Documentation/devicetree/bindings/misc/capes-beaglebone.txt b/Documentation/devicetree/bindings/misc/capes-beaglebone.txt
@@ -24,5 +24,5 @@ index 192880d..27fe149 100644
 +
 +	capemgr.extra_override=FOO-hardcoded:00A0,FOO-another-hardcoded:00A0
 -- 
-1.7.10.4
+1.9.1
 

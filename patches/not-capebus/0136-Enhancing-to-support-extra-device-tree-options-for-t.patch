@@ -1,17 +1,15 @@
-From 29441e4f533b829a2951d37288f5879ec28a3c80 Mon Sep 17 00:00:00 2001
+From 743f412779857c1dad9ce5e283c4250681c11458 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Thu, 21 Mar 2013 16:23:03 -0500
 Subject: [PATCH 136/184] Enhancing to support extra device tree options for
- tilcdc: ti,max_width (maximum width in pixels)
- ti,max_pixelclock (maximum allowable pixel clock
- for the device) also added some extra debugging
- enabled with drm debug to help understand why modes
- are being selected or rejected.
+ tilcdc: ti,max_width (maximum width in pixels) ti,max_pixelclock (maximum
+ allowable pixel clock for the device) also added some extra debugging enabled
+ with drm debug to help understand why modes are being selected or rejected.
 
 ---
- drivers/gpu/drm/tilcdc/tilcdc_crtc.c |   34 ++++++++++++++++++++++++++++++----
- drivers/gpu/drm/tilcdc/tilcdc_drv.c  |   18 +++++++++++++++++-
- drivers/gpu/drm/tilcdc/tilcdc_drv.h  |   14 ++++++++++++++
+ drivers/gpu/drm/tilcdc/tilcdc_crtc.c | 34 ++++++++++++++++++++++++++++++----
+ drivers/gpu/drm/tilcdc/tilcdc_drv.c  | 18 +++++++++++++++++-
+ drivers/gpu/drm/tilcdc/tilcdc_drv.h  | 14 ++++++++++++++
  3 files changed, 61 insertions(+), 5 deletions(-)
 
 diff --git a/drivers/gpu/drm/tilcdc/tilcdc_crtc.c b/drivers/gpu/drm/tilcdc/tilcdc_crtc.c
@@ -145,5 +143,5 @@ index b04f94c..48d744c 100644
  
  	/* register contents saved across suspend/resume: */
 -- 
-1.7.10.4
+1.9.1
 

@@ -1,12 +1,12 @@
-From 36ef05cc5271142dfa9f7221239126a0a029e106 Mon Sep 17 00:00:00 2001
+From e2690b337701e5f34d0bc4abca775c4539691e98 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 23 Apr 2013 15:12:00 +0200
 Subject: [PATCH 167/184] capes: add LCD7 A3
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- firmware/Makefile                       |    1 +
- firmware/capes/BB-BONE-LCD7-01-00A3.dts |  242 +++++++++++++++++++++++++++++++
+ firmware/Makefile                       |   1 +
+ firmware/capes/BB-BONE-LCD7-01-00A3.dts | 242 ++++++++++++++++++++++++++++++++
  2 files changed, 243 insertions(+)
  create mode 100644 firmware/capes/BB-BONE-LCD7-01-00A3.dts
 
@@ -271,5 +271,5 @@ index 0000000..ab748d2
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

@@ -1,7 +1,7 @@
-From f7351e25e37cdd7fab871af5f66dbebe36a3d658 Mon Sep 17 00:00:00 2001
+From 76870f3ed30021565072f32619011477435fa2fd Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Fri, 3 Jan 2014 10:39:30 -0600
-Subject: [PATCH 7/7] net/cpsw: fix irq_disable() with threaded interrupts
+Subject: [PATCH 7/9] net/cpsw: fix irq_disable() with threaded interrupts
 
 https://groups.google.com/d/msg/beagleboard/mfQwHdfHyoo/SA9EnjpXoAsJ
 
@@ -68,5 +68,5 @@ index 21ba53e..9c72a69 100644
  	/*
  	 * This may be required here for child devices.
 -- 
-1.8.5.2
+1.9.1
 

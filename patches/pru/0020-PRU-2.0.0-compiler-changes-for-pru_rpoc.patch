@@ -1,4 +1,4 @@
-From 0761912b423d536c5a318b6685b3b1419eb8fbcf Mon Sep 17 00:00:00 2001
+From 468d48d12f0ba54c1b90f9363219014257cf2c21 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Sun, 1 Jun 2014 18:52:00 -0500
 Subject: [PATCH 20/20] PRU 2.0.0 compiler changes for pru_rpoc
@@ -31,5 +31,5 @@ index 6e42db6..7b7280d 100644
  	/* write the arguments */
  	pru_write_cpu_reg(ppc, 14, nr);
 -- 
-2.0.0.rc2
+1.9.1
 

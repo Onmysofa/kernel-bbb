@@ -1,7 +1,7 @@
-From 345631012c9e401d787f823c8a0c4ee0d52a5faa Mon Sep 17 00:00:00 2001
+From 298bd6ae2e12c5b4c68c85d7fe83fc0a277db217 Mon Sep 17 00:00:00 2001
 From: Josh Datko <jbd@cryptotronix.com>
 Date: Wed, 2 Apr 2014 20:35:11 +0000
-Subject: [PATCH 28/28] adds DTS for CryptoCape
+Subject: [PATCH 28/38] adds DTS for CryptoCape
 
 Signed-off-by: Josh Datko <jbd@cryptotronix.com>
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>

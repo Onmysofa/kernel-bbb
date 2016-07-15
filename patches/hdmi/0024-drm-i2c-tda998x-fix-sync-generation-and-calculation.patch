@@ -1,4 +1,4 @@
-From ed2b99a232c38dea49940793362fac0da74eeab9 Mon Sep 17 00:00:00 2001
+From 523c4ff4d7793680798b5cdc1b324e4f9a20cb6a Mon Sep 17 00:00:00 2001
 From: Cody Lacey <clacey@ti.com>
 Date: Fri, 9 Aug 2013 13:44:05 -0500
 Subject: [PATCH 24/27] drm/i2c/tda998x fix sync generation and calculation
@@ -16,8 +16,8 @@ the display to the right by a certain number of pixels.  Changes
 only take effect if adjusted_mode is changed in fixup function.
 Created by: Darren Etheridge <detheridge@ti.com>
 ---
- drivers/gpu/drm/i2c/tda998x_drv.c    |  190 ++++++++++++++++++++++------------
- drivers/gpu/drm/tilcdc/tilcdc_crtc.c |    7 +-
+ drivers/gpu/drm/i2c/tda998x_drv.c    | 190 +++++++++++++++++++++++------------
+ drivers/gpu/drm/tilcdc/tilcdc_crtc.c |   7 +-
  2 files changed, 129 insertions(+), 68 deletions(-)
 
 diff --git a/drivers/gpu/drm/i2c/tda998x_drv.c b/drivers/gpu/drm/i2c/tda998x_drv.c
@@ -299,5 +299,5 @@ index 54023bf..188ac07 100644
  	else
  		tilcdc_clear(dev, LCDC_RASTER_TIMING_2_REG, LCDC_INVERT_HSYNC);
 -- 
-1.7.10.4
+1.9.1
 

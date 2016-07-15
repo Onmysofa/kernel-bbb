@@ -1,14 +1,14 @@
-From 4e64af44d457311c32f0bb8c57eaa096ff77adea Mon Sep 17 00:00:00 2001
+From df26476916851eca171133d66b59571ea21c19d9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 12 Jun 2013 11:12:26 +0300
-Subject: [PATCH 09/23] capes: boneblack HDMI capes have blacklisted modes.
+Subject: [PATCH 09/24] capes: boneblack HDMI capes have blacklisted modes.
 
 Added a few modes that are known not to work on my end.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/capes/cape-boneblack-hdmi-00A0.dts  |   11 +++++++++++
- firmware/capes/cape-boneblack-hdmin-00A0.dts |   11 +++++++++++
+ firmware/capes/cape-boneblack-hdmi-00A0.dts  | 11 +++++++++++
+ firmware/capes/cape-boneblack-hdmin-00A0.dts | 11 +++++++++++
  2 files changed, 22 insertions(+)
 
 diff --git a/firmware/capes/cape-boneblack-hdmi-00A0.dts b/firmware/capes/cape-boneblack-hdmi-00A0.dts
@@ -56,5 +56,5 @@ index 1feb013..b4305b0 100644
  					bpp = <16>;
  					ac-bias = <255>;
 -- 
-1.7.10.4
+1.9.1
 

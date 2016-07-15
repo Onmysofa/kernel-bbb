@@ -1,7 +1,7 @@
-From 5e143d4edab52efc968afd1a7a910aa342450975 Mon Sep 17 00:00:00 2001
+From 1706361b95e48901e177e351deeb42d47b4c568f Mon Sep 17 00:00:00 2001
 From: Jonathan Piat <piat.jonathan@gmail.com>
 Date: Mon, 28 Apr 2014 23:13:49 +0200
-Subject: [PATCH 2/3] Adding DTS support for Logibone
+Subject: [PATCH 2/4] Adding DTS support for Logibone
 
 Signed-off-by: Jonathan Piat <piat.jonathan@gmail.com>
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
@@ -12,10 +12,10 @@ Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
  create mode 100644 firmware/capes/BB-BONE-LOGIBONE-00R1.dts
 
 diff --git a/firmware/Makefile b/firmware/Makefile
-index 1a0f009..36ec8db 100644
+index 8544125..6165090 100644
 --- a/firmware/Makefile
 +++ b/firmware/Makefile
-@@ -182,6 +182,7 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
+@@ -183,6 +183,7 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
  	bone_pwm_P9_29-00A0.dtbo \
  	bone_pwm_P9_31-00A0.dtbo \
  	bone_pwm_P9_42-00A0.dtbo \
@@ -251,5 +251,5 @@ index 0000000..75cd3f1
 +
 + };
 -- 
-2.0.0.rc2
+1.9.1
 

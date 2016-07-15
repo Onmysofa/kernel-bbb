@@ -1,13 +1,12 @@
-From 058fb5662e2323371db1228cbe70020ec21e55a6 Mon Sep 17 00:00:00 2001
+From cb3dc9e58ff7ce35e7af3b72ac031b02356989f1 Mon Sep 17 00:00:00 2001
 From: Dennie de Groot <mail@denniedegroot.nl>
 Date: Tue, 20 May 2014 21:09:19 +0200
-Subject: [PATCH] cape: add BB-BONE-HAS-00R1
-
+Subject: [PATCH 36/38] cape: add BB-BONE-HAS-00R1
 
 Signed-off-by: Dennie de Groot <mail@denniedegroot.nl>
 ---
- firmware/Makefile                   |    1 +
- firmware/capes/BB-BONE-HAS-00R1.dts |  116 +++++++++++++++++++++++++++++++++++
+ firmware/Makefile                   |   1 +
+ firmware/capes/BB-BONE-HAS-00R1.dts | 116 ++++++++++++++++++++++++++++++++++++
  2 files changed, 117 insertions(+)
  create mode 100644 firmware/capes/BB-BONE-HAS-00R1.dts
 
@@ -146,5 +145,5 @@ index 0000000..8c321ed
 +    };
 +};
 -- 
-1.7.9.5
+1.9.1
 

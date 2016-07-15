@@ -1,13 +1,13 @@
-From 7b51fd17e24796d235689107265de1be5a340ef3 Mon Sep 17 00:00:00 2001
+From aa44744b21cf2caa415595c7d66c63b4e96a56b2 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 20 Mar 2013 13:13:41 +0100
 Subject: [PATCH 131/184] capes: add cape for beaglebone based Hexy robot
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi |   16 +++
- firmware/Makefile                         |    1 +
- firmware/capes/cape-bone-hexy-00A0.dts    |  150 +++++++++++++++++++++++++++++
+ arch/arm/boot/dts/am335x-bone-common.dtsi |  16 ++++
+ firmware/Makefile                         |   1 +
+ firmware/capes/cape-bone-hexy-00A0.dts    | 150 ++++++++++++++++++++++++++++++
  3 files changed, 167 insertions(+)
  create mode 100644 firmware/capes/cape-bone-hexy-00A0.dts
 
@@ -214,5 +214,5 @@ index 0000000..4a13484
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

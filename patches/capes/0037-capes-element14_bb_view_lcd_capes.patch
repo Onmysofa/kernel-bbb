@@ -1,7 +1,7 @@
-From 7b307ea2642a33426c0f068634b7d5a244bbf91a Mon Sep 17 00:00:00 2001
+From 8dcb2ff3a1dee25d7189b6c36c595be6eb48fb82 Mon Sep 17 00:00:00 2001
 From: "B. Scott Michel" <bscottm@ieee.org>
 Date: Thu, 29 May 2014 11:29:39 -0700
-Subject: [PATCH 37/37] capes: element14_bb_view_lcd_capes
+Subject: [PATCH 37/38] capes: element14_bb_view_lcd_capes
 
 Add device tree source for Element14's "BB-VIEW" series of LCD
 capes.
@@ -610,5 +610,5 @@ index 0000000..0d8e74d
 +	};
 +};
 -- 
-2.0.0.rc2
+1.9.1
 

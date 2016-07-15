@@ -1,7 +1,7 @@
-From 3a24826c1e689723d57f3c53e14a8d9ebe165f1e Mon Sep 17 00:00:00 2001
+From c8c2a2f8eb2b09ae5575b203f47b97eeda644d58 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 27 Jun 2013 22:47:13 +0100
-Subject: [PATCH 16/20] MFD: ti_tscadc: disable TSC control register bits when
+Subject: [PATCH 16/19] MFD: ti_tscadc: disable TSC control register bits when
  TSC not in use
 
 AFE Pen Ctrl and TouchScreen transistors enabling is not
@@ -11,7 +11,7 @@ TSC driver before accessing control register.
 Signed-off-by: Patil, Rachna <rachna@ti.com>
 Acked-by: Vaibhav Hiremath <hvaibhav@ti.com>
 ---
- drivers/mfd/ti_am335x_tscadc.c |   18 +++++++++++-------
+ drivers/mfd/ti_am335x_tscadc.c | 18 +++++++++++-------
  1 file changed, 11 insertions(+), 7 deletions(-)
 
 diff --git a/drivers/mfd/ti_am335x_tscadc.c b/drivers/mfd/ti_am335x_tscadc.c
@@ -55,5 +55,5 @@ index 640fe10..addd23d 100644
  	restore = tscadc_readl(tscadc_dev, REG_CTRL);
  	tscadc_writel(tscadc_dev, REG_CTRL,
 -- 
-1.7.10.4
+1.9.1
 

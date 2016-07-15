@@ -1,4 +1,4 @@
-From 7a16e9232f21eb13e4d69b4b3bfe38f801f65cb4 Mon Sep 17 00:00:00 2001
+From b48437f2c55f8e15bf7a2f129ae959087b531b70 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 10 May 2013 14:07:49 +0300
 Subject: [PATCH 10/10] cssp_camera: Make it work with Beaglebone black
@@ -6,8 +6,8 @@ Subject: [PATCH 10/10] cssp_camera: Make it work with Beaglebone black
 Using the reset control framework, the camera works on the black.
 I love it when a plan comes together...
 ---
- drivers/media/platform/soc_camera/cssp_camera.c |   25 +++++++++++++++++++++--
- firmware/capes/BB-BONE-CAM3-01-00A2.dts         |    5 +++++
+ drivers/media/platform/soc_camera/cssp_camera.c | 25 +++++++++++++++++++++++--
+ firmware/capes/BB-BONE-CAM3-01-00A2.dts         |  5 +++++
  2 files changed, 28 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/media/platform/soc_camera/cssp_camera.c b/drivers/media/platform/soc_camera/cssp_camera.c
@@ -112,5 +112,5 @@ index 97bdcfd..e546f08 100644
  
  		};
 -- 
-1.7.10.4
+1.9.1
 

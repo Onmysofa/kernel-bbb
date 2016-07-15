@@ -1,4 +1,4 @@
-From e393c7a243703e1fd3fc37796ac26fea17acc48e Mon Sep 17 00:00:00 2001
+From 34d3bacd32533127cdb4774d3314f3e0223f24b4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 30 May 2013 15:44:07 +0300
 Subject: [PATCH 176/184] capes: Add virtual capes serving as examples
@@ -8,16 +8,16 @@ Example capes for UART/I2C/SPI.
 Conflicts:
 	firmware/Makefile
 ---
- firmware/Makefile                 |   19 +++++++++
- firmware/capes/BB-I2C1-00A0.dts   |   65 +++++++++++++++++++++++++++++
- firmware/capes/BB-I2C1A1-00A0.dts |   65 +++++++++++++++++++++++++++++
- firmware/capes/BB-SPI0-00A0.dts   |   79 ++++++++++++++++++++++++++++++++++++
- firmware/capes/BB-SPI1-00A0.dts   |   79 ++++++++++++++++++++++++++++++++++++
- firmware/capes/BB-SPI1A1-00A0.dts |   81 +++++++++++++++++++++++++++++++++++++
- firmware/capes/BB-UART1-00A0.dts  |   48 ++++++++++++++++++++++
- firmware/capes/BB-UART2-00A0.dts  |   48 ++++++++++++++++++++++
- firmware/capes/BB-UART4-00A0.dts  |   48 ++++++++++++++++++++++
- firmware/capes/BB-UART5-00A0.dts  |   49 ++++++++++++++++++++++
+ firmware/Makefile                 | 19 +++++++++
+ firmware/capes/BB-I2C1-00A0.dts   | 65 +++++++++++++++++++++++++++++++
+ firmware/capes/BB-I2C1A1-00A0.dts | 65 +++++++++++++++++++++++++++++++
+ firmware/capes/BB-SPI0-00A0.dts   | 79 ++++++++++++++++++++++++++++++++++++++
+ firmware/capes/BB-SPI1-00A0.dts   | 79 ++++++++++++++++++++++++++++++++++++++
+ firmware/capes/BB-SPI1A1-00A0.dts | 81 +++++++++++++++++++++++++++++++++++++++
+ firmware/capes/BB-UART1-00A0.dts  | 48 +++++++++++++++++++++++
+ firmware/capes/BB-UART2-00A0.dts  | 48 +++++++++++++++++++++++
+ firmware/capes/BB-UART4-00A0.dts  | 48 +++++++++++++++++++++++
+ firmware/capes/BB-UART5-00A0.dts  | 49 +++++++++++++++++++++++
  10 files changed, 581 insertions(+)
  create mode 100644 firmware/capes/BB-I2C1-00A0.dts
  create mode 100644 firmware/capes/BB-I2C1A1-00A0.dts
@@ -676,5 +676,5 @@ index 0000000..e067068
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

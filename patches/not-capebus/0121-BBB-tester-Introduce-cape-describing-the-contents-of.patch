@@ -1,16 +1,16 @@
-From 18863146fc7e5599e0813d5f776b51afb763cbd3 Mon Sep 17 00:00:00 2001
+From f62aa3b5e02d9192ab16835984de9b53b290afed Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 26 Feb 2013 20:44:25 +0200
-Subject: [PATCH 121/184] BBB-tester: Introduce cape describing the contents
- of the tester 'cape'
+Subject: [PATCH 121/184] BBB-tester: Introduce cape describing the contents of
+ the tester 'cape'
 
 Note that the tester cape uses I2C2 for something different than an I2C
 bus, so you have to load the fragment manually.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/Makefile                        |    3 +
- firmware/capes/cape-bone-tester-00A0.dts |  417 ++++++++++++++++++++++++++++++
+ firmware/Makefile                        |   3 +
+ firmware/capes/cape-bone-tester-00A0.dts | 417 +++++++++++++++++++++++++++++++
  2 files changed, 420 insertions(+)
  create mode 100644 firmware/capes/cape-bone-tester-00A0.dts
 
@@ -452,5 +452,5 @@ index 0000000..5881550
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

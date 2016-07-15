@@ -1,4 +1,4 @@
-From 5624a68ecb91765ca619eef989f09532213a185f Mon Sep 17 00:00:00 2001
+From 667c3d1c508554e847a0f40b0470c79684658dfb Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 29 Mar 2013 19:32:29 +0200
 Subject: [PATCH 152/184] tilcdc: Enable pinmux states
@@ -6,10 +6,10 @@ Subject: [PATCH 152/184] tilcdc: Enable pinmux states
 Things like the boot switch are on the LCD data pins.
 Allows us to change pinmuxing on runtime.
 ---
- drivers/gpu/drm/tilcdc/tilcdc_panel.c       |  113 +++++++++++++++++++++++++-
- drivers/gpu/drm/tilcdc/tilcdc_slave.c       |  114 +++++++++++++++++++++++++-
- drivers/gpu/drm/tilcdc/tilcdc_tfp410.c      |  115 ++++++++++++++++++++++++++-
- firmware/capes/cape-boneblack-hdmi-00A0.dts |    8 +-
+ drivers/gpu/drm/tilcdc/tilcdc_panel.c       | 113 ++++++++++++++++++++++++++-
+ drivers/gpu/drm/tilcdc/tilcdc_slave.c       | 114 ++++++++++++++++++++++++++-
+ drivers/gpu/drm/tilcdc/tilcdc_tfp410.c      | 115 +++++++++++++++++++++++++++-
+ firmware/capes/cape-boneblack-hdmi-00A0.dts |   8 +-
  4 files changed, 337 insertions(+), 13 deletions(-)
 
 diff --git a/drivers/gpu/drm/tilcdc/tilcdc_panel.c b/drivers/gpu/drm/tilcdc/tilcdc_panel.c
@@ -492,5 +492,5 @@ index c2a5748..cb45533 100644
  
  			fb {
 -- 
-1.7.10.4
+1.9.1
 

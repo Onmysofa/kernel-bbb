@@ -1,4 +1,4 @@
-From 2572070b88e38e490f5dfe0303de0c0ceefbcdc7 Mon Sep 17 00:00:00 2001
+From 7a06720e470c66cf03fac188c8998a034cca45a2 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:04:06 +0000
 Subject: [PATCH 129/184] beaglebone: Add Adafruit RTC prototype cape
@@ -9,9 +9,9 @@ achieves this.
 
 Signed-off-by: Matt Ranostay <mranostay@gmail.com>
 ---
- arch/arm/boot/dts/am335x-bone-common.dtsi      |   19 ++++++++++-
- firmware/Makefile                              |    1 +
- firmware/capes/cape-bone-adafruit-rtc-00A0.dts |   42 ++++++++++++++++++++++++
+ arch/arm/boot/dts/am335x-bone-common.dtsi      | 19 +++++++++++-
+ firmware/Makefile                              |  1 +
+ firmware/capes/cape-bone-adafruit-rtc-00A0.dts | 42 ++++++++++++++++++++++++++
  3 files changed, 61 insertions(+), 1 deletion(-)
  create mode 100644 firmware/capes/cape-bone-adafruit-rtc-00A0.dts
 
@@ -120,5 +120,5 @@ index 0000000..9436fd4
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

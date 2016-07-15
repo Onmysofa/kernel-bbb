@@ -1,4 +1,4 @@
-From abaecacd6bc3147866d8e7aa5673af8c3f08f77d Mon Sep 17 00:00:00 2001
+From 7868d6de33bb1f5ec84b3d39813682896a4a6477 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:05:28 +0200
 Subject: [PATCH 034/184] capemgr: firmware makefiles for DT objects
@@ -7,7 +7,7 @@ Makefile changes to support the DT cape definitions.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- firmware/Makefile |   17 +++++++++++++++++
+ firmware/Makefile | 17 +++++++++++++++++
  1 file changed, 17 insertions(+)
 
 diff --git a/firmware/Makefile b/firmware/Makefile
@@ -53,5 +53,5 @@ index cbb09ce..f47024c 100644
  	$(call cmd,mkdir)
  
 -- 
-1.7.10.4
+1.9.1
 

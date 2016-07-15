@@ -1,8 +1,8 @@
-From cac9346d6d83cd9bdc3e355db1c4fa899ad6108a Mon Sep 17 00:00:00 2001
+From 44be34a8f14bcc818bbd63daa5b5dc4ce000dc56 Mon Sep 17 00:00:00 2001
 From: Alessandro Zummo <a.zummo@towertech.it>
 Date: Sat, 25 May 2013 19:18:07 +0200
-Subject: [PATCH 177/184] capes: Add TowerTech TT3201 CAN Bus Cape
- (TT3201-001, 3 channels) Rev 01 and 02
+Subject: [PATCH 177/184] capes: Add TowerTech TT3201 CAN Bus Cape (TT3201-001,
+ 3 channels) Rev 01 and 02
 
 --
 
@@ -10,8 +10,8 @@ firmware/Makefile                |    3 +-
  firmware/capes/TT3201-001-01.dts |  134 ++++++++++++++++++++++++++++++++++++++
  2 files changed, 136 insertions(+), 1 deletion(-)
 ---
- firmware/Makefile                |    8 ++-
- firmware/capes/TT3201-001-01.dts |  133 ++++++++++++++++++++++++++++++++++++++
+ firmware/Makefile                |   8 ++-
+ firmware/capes/TT3201-001-01.dts | 133 +++++++++++++++++++++++++++++++++++++++
  2 files changed, 140 insertions(+), 1 deletion(-)
  create mode 100644 firmware/capes/TT3201-001-01.dts
 
@@ -174,5 +174,5 @@ index 0000000..0ca231e
 +	};
 +};
 -- 
-1.7.10.4
+1.9.1
 

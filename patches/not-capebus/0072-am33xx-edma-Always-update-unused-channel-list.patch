@@ -1,4 +1,4 @@
-From d0726b8192c49c2bb9b52ee5f597e631b4e6304c Mon Sep 17 00:00:00 2001
+From 1390fab9f67e0dae05d84b36bf885e9f18b0d972 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 20:03:18 +0200
 Subject: [PATCH 072/184] am33xx: edma: Always update unused channel list
@@ -8,7 +8,7 @@ of the the unused channels list is wrong, so do it every time.
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
- arch/arm/common/edma.c |   27 ++++++++++++---------------
+ arch/arm/common/edma.c | 27 ++++++++++++---------------
  1 file changed, 12 insertions(+), 15 deletions(-)
 
 diff --git a/arch/arm/common/edma.c b/arch/arm/common/edma.c
@@ -57,5 +57,5 @@ index 4c07461..e0c50fb 100644
  	if (channel >= 0) {
  		ctlr = EDMA_CTLR(channel);
 -- 
-1.7.10.4
+1.9.1
 

@@ -1,4 +1,4 @@
-From a2c765add061a108aafecc0f1b2451db21001a46 Mon Sep 17 00:00:00 2001
+From a926e2383f69b646ac20e8e88de85751b8664ed9 Mon Sep 17 00:00:00 2001
 From: Jay at Control Module Industries <cmidroid@gmail.com>
 Date: Tue, 1 Jul 2014 14:49:52 -0500
 Subject: [PATCH 9/9] cpsw: search for phy
@@ -131,5 +131,5 @@ index cca2550..f005014 100644
  static int davinci_mdio_probe(struct platform_device *pdev)
  {
 -- 
-2.0.0
+1.9.1
 
